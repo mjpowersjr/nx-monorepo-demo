@@ -1,3 +1,3 @@
 export function pkg1(): string {
-  return 'pkg2';
+  return 'pkg1';
 }
