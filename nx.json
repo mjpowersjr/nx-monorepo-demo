@@ -59,8 +59,12 @@
     }
   },
   "release": {
-    "versionPlans": true,
     "releaseTagPattern": "{projectName}/{version}",
+    "versionPlans": {
+      "ignorePatternsForPlanCheck": [
+        "**/*.spec.ts"
+      ]
+    },
     "version": {
       "preVersionCommand": "npx nx run-many -t build"
     }
