@@ -59,7 +59,6 @@
     }
   },
   "release": {
-    "releaseTagPattern": "{projectName}/{version}",
     "versionPlans": {
       "ignorePatternsForPlanCheck": [
         "**/*.spec.ts"
