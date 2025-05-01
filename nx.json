@@ -59,6 +59,7 @@
     }
   },
   "release": {
+    "projectsRelationship": "independent",
     "versionPlans": {
       "ignorePatternsForPlanCheck": [
         "**/*.spec.ts"
