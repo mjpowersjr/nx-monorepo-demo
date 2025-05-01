@@ -1,7 +1,7 @@
 {
   "name": "@my-org/app1",
   "repository": "https://github.com/mjpowersjr/nx-monorepo-demo",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -39,6 +39,6 @@
     }
   },
   "dependencies": {
-    "@my-org/pkg1": "0.1.1"
+    "@my-org/pkg1": "1.0.0"
   }
 }
